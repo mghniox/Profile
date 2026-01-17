@@ -581,6 +581,9 @@ option {
     padding: 6px 8px;
     max-width: 90%;
   }
+  .detail:hover, .detail-2:hover{
+    cursor: default;
+  }
   /* Achievement */
   .achievement {
     flex-direction: column;
@@ -592,6 +595,7 @@ option {
   .info {
     margin-right: 0;
     max-width: 100%;
+    padding-left: 5em;
   }
 
   .info h2 {
